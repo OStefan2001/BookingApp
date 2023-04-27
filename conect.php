@@ -34,8 +34,10 @@
         $conn->close();
     }
 ?>
+<button><a href ='apartment1.html' style="text-decoration:none" >OK</button>
 <a href='apartment1.html' button onclick="cancelreservation('Your reservation it will be canceled')"style="margin-top:1%;margin-bottom:1%;margin-left:2%;
         text-decoration:none;color:black;border-style:solid">Cancel reservation</button>
+
 
 <script>
     function cancelreservation(){
